@@ -1,6 +1,6 @@
 const linksSocialMedia = {
   github: 'lucavieira',
-  linkedin: 'lucas-vieira-dev',
+  linkedin: 'in/lucas-vieira-dev',
   instagram: '_lucass_vieira_',
   twitter: 'LucasVDev',
   facebook: 'lukas.veras.904'
