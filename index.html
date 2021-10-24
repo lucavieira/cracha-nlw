@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Vieira - DoWhile 2021</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="avatar">
+          <span>
+            <img src="images/selo.svg" alt="Selo Rocketseat" />
+          </span>
+          <img src="images/foto.png" alt="Foto Pessoal" id="userImage" />
+        </div>
+        <h1 id="userName">Lucas Vieira</h1>
+        <a id="userLink" href="https://github.com/lucavieira">
+          <img src="images/github.svg" alt="icone github" />
+          <span id="userLogin">lucavieira</span>
+        </a>
+        <p id="bio">
+          An instructor focused on helping pople start programming for web
+        </p>
+        <ul id="socialLinks">
+          <li class="linkedin">
+            <a href="https://www.linkedin.com/in/lucas-vieira-dev/" target="_blank">
+              <img src="images/linkedin-black.svg" alt="Icone LinkedIn" id="linkedin"
+              onmouseover="changeSocialMediaIcons(this.id)" onmouseout="changeSocialMediaIconsBack(this.id)"  />
+            </a>
+          </li>
+          <li class="instagram">
+            <a
+              href="https://www.instagram.com/_lucass_vieira_/"
+              target="_blank"
+            >
+              <img src="images/instagram-black.svg" alt="Icone Instagram" id="instagram"
+              onmouseover="changeSocialMediaIcons(this.id)" onmouseout="changeSocialMediaIconsBack(this.id)" />
+            </a>
+          </li>
+          <li class="facebook">
+            <a href="https://www.facebook.com/lukas.veras.904" target="_blank">
+              <img src="images/facebook-black.svg" alt="Icone Facebook" id="facebook"
+              onmouseover="changeSocialMediaIcons(this.id)" onmouseout="changeSocialMediaIconsBack(this.id)" />
+            </a>
+          </li>
+          <li class="twitter">
+            <a href="https://twitter.com/LucasVDev" target="_blank">
+              <img src="images/twitter-black.svg" alt="Icone Twitter" id="twitter"
+              onmouseover="changeSocialMediaIcons(this.id)" onmouseout="changeSocialMediaIconsBack(this.id)" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
